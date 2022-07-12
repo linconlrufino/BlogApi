@@ -1,4 +1,3 @@
-D:\balta\BlogApi\bin\Debug\net6.0\appsettings.Development.json
 D:\balta\BlogApi\bin\Debug\net6.0\appsettings.json
 D:\balta\BlogApi\bin\Debug\net6.0\BlogApi.exe
 D:\balta\BlogApi\bin\Debug\net6.0\BlogApi.deps.json
