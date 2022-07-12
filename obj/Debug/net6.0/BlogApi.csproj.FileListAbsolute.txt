@@ -19,11 +19,7 @@ D:\balta\BlogApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\balta\BlogApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 D:\balta\BlogApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\balta\BlogApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\balta\BlogApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\balta\BlogApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\balta\BlogApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\balta\BlogApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\balta\BlogApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\balta\BlogApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\balta\BlogApi\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\balta\BlogApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -48,7 +44,6 @@ D:\balta\BlogApi\obj\Debug\net6.0\BlogApi.GeneratedMSBuildEditorConfig.editorcon
 D:\balta\BlogApi\obj\Debug\net6.0\BlogApi.AssemblyInfoInputs.cache
 D:\balta\BlogApi\obj\Debug\net6.0\BlogApi.AssemblyInfo.cs
 D:\balta\BlogApi\obj\Debug\net6.0\BlogApi.csproj.CoreCompileInputs.cache
-D:\balta\BlogApi\obj\Debug\net6.0\BlogApi.MvcApplicationPartsAssemblyInfo.cs
 D:\balta\BlogApi\obj\Debug\net6.0\BlogApi.MvcApplicationPartsAssemblyInfo.cache
 D:\balta\BlogApi\obj\Debug\net6.0\staticwebassets.build.json
 D:\balta\BlogApi\obj\Debug\net6.0\staticwebassets.development.json

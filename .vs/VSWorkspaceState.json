@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
     "\\Data",
     "\\Data\\Mappings",
-    "\\Models"
+    "\\Models",
+    "\\obj",
+    "\\Properties"
   ],
-  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
