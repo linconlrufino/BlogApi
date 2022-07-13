@@ -453,3 +453,13 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 Footer
+bin/Debug/net6.0/BlogApi.dll
+bin/Debug/net6.0/BlogApi.pdb
+obj/staticwebassets.pack.sentinel
+obj/Debug/net6.0/BlogApi.assets.cache
+obj/Debug/net6.0/BlogApi.csproj.FileListAbsolute.txt
+obj/Debug/net6.0/BlogApi.dll
+obj/Debug/net6.0/BlogApi.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net6.0/BlogApi.pdb
+obj/Debug/net6.0/ref/BlogApi.dll
+obj/Debug/net6.0/refint/BlogApi.dll

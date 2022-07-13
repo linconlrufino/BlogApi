@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\balta\\BlogApi\\BlogApi.csproj": {}
+    "D:\\balta\\BlogApi\\BlogApi.csproj": {}
   },
   "projects": {
-    "d:\\balta\\BlogApi\\BlogApi.csproj": {
+    "D:\\balta\\BlogApi\\BlogApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\balta\\BlogApi\\BlogApi.csproj",
+        "projectUniqueName": "D:\\balta\\BlogApi\\BlogApi.csproj",
         "projectName": "BlogApi",
-        "projectPath": "d:\\balta\\BlogApi\\BlogApi.csproj",
+        "projectPath": "D:\\balta\\BlogApi\\BlogApi.csproj",
         "packagesPath": "C:\\Users\\linco\\.nuget\\packages\\",
-        "outputPath": "d:\\balta\\BlogApi\\obj\\",
+        "outputPath": "D:\\balta\\BlogApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
