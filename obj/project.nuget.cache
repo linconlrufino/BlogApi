@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o7wUOGxpTE1zmyHXq7vFQVRa+v8ZgS6DxoYowUFrC/tw9s/jFKf4UKR3XZYHT/nz0RWCBMV4ay6PBSbLPNSZOw==",
+  "dgSpecHash": "VOFlieSpwsoRn2ZPUBT1gTGmk27mMr+rutFt9JzHkInXBM591fo/8XzTTj67oNAlb0+c5W/UvcM3g9sxZcQdZw==",
   "success": true,
-  "projectFilePath": "D:\\balta\\BlogApi\\BlogApi.csproj",
+  "projectFilePath": "d:\\balta\\BlogApi\\BlogApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linco\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\linco\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

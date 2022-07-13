@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\balta\\BlogApi\\BlogApi.csproj": {}
+    "d:\\balta\\BlogApi\\BlogApi.csproj": {}
   },
   "projects": {
-    "D:\\balta\\BlogApi\\BlogApi.csproj": {
+    "d:\\balta\\BlogApi\\BlogApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\balta\\BlogApi\\BlogApi.csproj",
+        "projectUniqueName": "d:\\balta\\BlogApi\\BlogApi.csproj",
         "projectName": "BlogApi",
-        "projectPath": "D:\\balta\\BlogApi\\BlogApi.csproj",
+        "projectPath": "d:\\balta\\BlogApi\\BlogApi.csproj",
         "packagesPath": "C:\\Users\\linco\\.nuget\\packages\\",
-        "outputPath": "D:\\balta\\BlogApi\\obj\\",
+        "outputPath": "d:\\balta\\BlogApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linco\\AppData\\Roaming\\NuGet\\NuGet.Config",
