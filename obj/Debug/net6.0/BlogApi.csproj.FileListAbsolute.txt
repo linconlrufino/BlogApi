@@ -53,3 +53,4 @@ D:\balta\BlogApi\obj\Debug\net6.0\scopedcss\bundle\BlogApi.styles.css
 D:\balta\BlogApi\obj\Debug\net6.0\BlogApi.csproj.CopyComplete
 D:\balta\BlogApi\obj\Debug\net6.0\BlogApi.genruntimeconfig.cache
 D:\balta\BlogApi\obj\Debug\net6.0\ref\BlogApi.dll
+D:\balta\BlogApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
