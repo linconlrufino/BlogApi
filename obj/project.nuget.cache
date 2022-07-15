@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LQtnyuEab+TslxPZ1V4KfUv0QkMUH0s8oPIR5pSc1M4c3xXZC7/gnFqw8j2dYR1st0Avc1npOgH7BegEql7BWg==",
+  "dgSpecHash": "VN62IOwI81hDJxe2LzP947TxwuAxrb7F/sX85OcW6hSQ901ICX/uKTWla9cl166tUr2d7qSiSCC56oFFxqevIQ==",
   "success": true,
   "projectFilePath": "D:\\balta\\BlogApi\\BlogApi.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,7 @@
     "C:\\Users\\linco\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\linco\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\linco\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\linco\\.nuget\\packages\\secureidentity\\1.0.3\\secureidentity.1.0.3.nupkg.sha512",
     "C:\\Users\\linco\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\linco\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\linco\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",

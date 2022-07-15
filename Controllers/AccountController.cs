@@ -3,8 +3,9 @@ using Blog.ViewModels;
 using BlogApi.Data;
 using BlogApi.Models;
 using BlogApi.Services;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SecureIdentity.Password;
 
 namespace BlogApi.Controllers;
 
@@ -25,6 +26,29 @@ public class AccountController : ControllerBase
             Email = model.Email,
             Slug = model.Email.Replace("@", "-").Replace(".", "-")
         };
+
+        var password = PasswordGenerator.Generate(25);
+        user.PasswordHash = PasswordHasher.Hash(password);
+
+        try
+        {
+            await context.Users.AddAsync(user);
+            await context.SaveChangesAsync();
+
+            return Ok(new ResultViewModel<dynamic>(new
+            {
+                user.Email,
+                password
+            }));
+        }
+        catch (DbUpdateException)
+        {
+            return StatusCode(400, new ResultViewModel<string>("05X99 - Este E-mail já está cadastrado"));
+        }
+        catch
+        {
+            return StatusCode(400, new ResultViewModel<string>("05X04 - Falha interna no servidor"));
+        }
     }
 
     [HttpPost("v1/accounts/login")]
