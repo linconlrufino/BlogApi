@@ -1,5 +1,5 @@
-using Blog.Extensions;
-using Blog.ViewModels;
+using BlogApi.Extensions;
+using BlogApi.ViewModels;
 using BlogApi.Data;
 using BlogApi.Models;
 using BlogApi.Services;
