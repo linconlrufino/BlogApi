@@ -4,6 +4,7 @@ using BlogApi.Data;
 using BlogApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using BlogApi.ViewModels.Categories;
 
 namespace BlogApi.Controllers;
 

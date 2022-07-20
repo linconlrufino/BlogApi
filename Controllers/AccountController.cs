@@ -6,6 +6,7 @@ using BlogApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SecureIdentity.Password;
+using BlogApi.ViewModels.Accounts;
 
 namespace BlogApi.Controllers;
 
