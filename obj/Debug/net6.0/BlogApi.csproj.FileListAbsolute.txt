@@ -55,3 +55,4 @@ D:\balta\BlogApi\obj\Debug\net6.0\BlogApi.genruntimeconfig.cache
 D:\balta\BlogApi\obj\Debug\net6.0\ref\BlogApi.dll
 D:\balta\BlogApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\balta\BlogApi\bin\Debug\net6.0\SecureIdentity.dll
+D:\balta\BlogApi\bin\Debug\net6.0\appsettings.Development.json
