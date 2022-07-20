@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using SecureIdentity.Password;
 using BlogApi.ViewModels.Accounts;
 using System.Text.RegularExpressions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BlogApi.Controllers;
 
@@ -93,6 +94,7 @@ public class AccountController : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpPost("v1/accounts/upload-image")]
     public async Task<IActionResult> UploadImage(
         [FromBody] UploadImageViewModel model,
