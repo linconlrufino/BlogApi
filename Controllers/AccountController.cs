@@ -94,11 +94,11 @@ public class AccountController : ControllerBase
         }
     }
 
-    [Authorize]
+    // [Authorize(Roles = "user")]
     [HttpPost("v1/accounts/upload-image")]
     public async Task<IActionResult> UploadImage(
-        [FromBody] UploadImageViewModel model,
-        [FromServices] BlogDataContext context)
+            [FromBody] UploadImageViewModel model,
+            [FromServices] BlogDataContext context)
     {
         var fileName = $"{Guid.NewGuid().ToString()}.jpg";
         var data = new Regex(@"^data:imageV[a-z]+;base64,")

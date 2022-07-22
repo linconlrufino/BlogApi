@@ -30,7 +30,6 @@ void LoadConfiguration(WebApplication app)
     var smtp = new Configuration.SmtpConfiguration();
     app.Configuration.GetSection("Smtp").Bind(smtp);
     Configuration.Smtp = smtp;
-
 }
 
 void ConfigureAuthentication(WebApplicationBuilder builder)
