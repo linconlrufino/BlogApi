@@ -6,6 +6,8 @@ using BlogApi.Data;
 using BlogApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,11 +19,18 @@ ConfigureServices(builder);
 var app = builder.Build();
 LoadConfiguration(app);
 
+app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.UseStaticFiles();
 app.UseResponseCompression();
+
+if (app.Environment.IsDevelopment())
+{
+    Console.WriteLine("Ambiente de desenvolvimento");
+}
+
 app.Run();
 
 void LoadConfiguration(WebApplication app)
@@ -83,7 +92,9 @@ void ConfigureMvc(WebApplicationBuilder builder)
 
 void ConfigureServices(WebApplicationBuilder builder)
 {
-    builder.Services.AddDbContext<BlogDataContext>();
+    var conectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    builder.Services.AddDbContext<BlogDataContext>(option =>
+        option.UseSqlServer(conectionString));
     builder.Services.AddTransient<TokenService>();
     builder.Services.AddTransient<EmailService>();
 }
