@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using SecureIdentity.Password;
 using BlogApi.ViewModels.Accounts;
 using System.Text.RegularExpressions;
-using Microsoft.AspNetCore.Authorization;
 
 namespace BlogApi.Controllers;
 
